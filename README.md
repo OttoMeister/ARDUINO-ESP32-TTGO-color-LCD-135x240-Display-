@@ -25,7 +25,7 @@ wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.3_Linux_64bit.AppI
 mv arduino-ide_2.0.3_Linux_64bit.AppImage ~/Schreibtisch <br>
 chmod u+x ~/Schreibtisch/arduino-ide_2.0.3_Linux_64bit.AppImage <br>
 #Starten im Terminal im hintergrund <br>
-~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown <br>
+~/Schreibtisch/arduino-ide_2.0.3_Linux_64bit.AppImage & disown <br>
 #Einstellungen <br>
 Menü -> File -> Preferences -> Language -> English <br>
 Menü -> File -> Preferences -> Show verbose output during compile und upload -> check <br>
