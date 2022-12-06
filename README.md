@@ -7,6 +7,7 @@ Das habe ich mal zum Test zusammen kopiert. Aber heilige Scheisse, die Arduino I
 
 ![](FirstProjectEsp32TTGO.jpeg)
 
+# Ubuntu Anleitung
 #ARDUINO IDE 2.0.2 mit TTGO ESP32 Display :1.14 inch color LCD 135x240 display <br>
 #https://www.aliexpress.com/item/1005003745502352.html <br>
 #Arduino Linux Serial Permissions <br>
@@ -23,9 +24,9 @@ sudo ln -s /usr/bin/python3 /usr/bin/python <br>
 wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.2_Linux_64bit.AppImage <br>
 mv arduino-ide_2.0.2_Linux_64bit.AppImage ~/Schreibtisch <br>
 chmod u+x ~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage <br>
-# Starten im Terminal im hintergrund <br>
+#Starten im Terminal im hintergrund <br>
 ~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown <br>
-# Einstellungen <br>
+#Einstellungen <br>
 Menü -> File -> Preferences -> Language -> English <br>
 Menü -> File -> Preferences -> Show verbose output during compile und upload -> check <br>
 Menü -> File -> Preferences -> Compiler warnings -> Default <br>
