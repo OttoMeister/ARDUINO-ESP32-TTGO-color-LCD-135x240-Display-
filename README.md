@@ -21,9 +21,9 @@ Save and close the file then restart your system. <br>
 #Error compiling for board ESP32 Wrover Module"  <br>
 sudo ln -s /usr/bin/python3 /usr/bin/python <br>
 #Arduino download <br>
-wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.2_Linux_64bit.AppImage <br>
-mv arduino-ide_2.0.2_Linux_64bit.AppImage ~/Schreibtisch <br>
-chmod u+x ~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage <br>
+wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.3_Linux_64bit.AppImage <br>
+mv arduino-ide_2.0.3_Linux_64bit.AppImage ~/Schreibtisch <br>
+chmod u+x ~/Schreibtisch/arduino-ide_2.0.3_Linux_64bit.AppImage <br>
 #Starten im Terminal im hintergrund <br>
 ~/Schreibtisch/arduino-ide_2.0.2_Linux_64bit.AppImage & disown <br>
 #Einstellungen <br>
@@ -43,7 +43,7 @@ Speichern <br>
 #optional <br>
 File -> Examples -> Examples from Custom Libary -> TFT_eSPI -> 160x128 -> TFT-Print_Test laden <br>
 Compile und Upload -> BINGO <br>
-# Weitere Libs installieren <br>
+#Weitere Libs installieren <br>
 Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "Adafruit BMP085 Libary by Adafruit" -> INSTALL ALL  <br>
 Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "Adafruit MPU6050 by Adafruit" -> INSTALL ALL <br>
 Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "NTPClient by Fabrice Weinberg" -> INSTALL ALL <br>
