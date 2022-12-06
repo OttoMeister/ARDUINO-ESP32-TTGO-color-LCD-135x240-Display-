@@ -32,7 +32,7 @@ Menü -> File -> Preferences -> Show verbose output during compile und upload ->
 Menü -> File -> Preferences -> Compiler warnings -> Default <br>
 Menü -> File -> Preferences -> Additional URLs -> https://dl.espressif.com/dl/package_esp32_index.json <br>
 Menü -> File -> Preferences -> OK <br>
-Libary Manager -> TFT_eSPI -> Suchen und Installieren  TFT_eSPI by Bodmer <br>
+Libary Manager -> TFT_eSPI -> Suchen und Installieren -> "TFT_eSPI by Bodmer" <br>
 Bords Manager -> ESP32 suchen und esp32 by Espressif Sytems instalieren <br>
 Tools -> Board -> esp32 -> ESP32 Dev Modul auswählen <br>
 Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br>
