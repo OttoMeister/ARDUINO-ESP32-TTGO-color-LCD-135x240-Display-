@@ -10,6 +10,8 @@
 // prepear WifFi
 const char* ssid = "xxxxxxxx";         // Replace with your
 const char* password = "xxxxxxxxx";  // WiFi credentials
+// search your next airport here and get the ICAO code
+// "https://en.wikipedia.org/wiki/ICAO_airport_code"
 const char* metar = "https://aviationweather.gov/api/data/metar?ids=KDEN&format=json";
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
